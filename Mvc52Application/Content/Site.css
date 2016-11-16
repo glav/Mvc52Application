@@ -22,3 +22,14 @@ select,
 textarea {
     max-width: 280px;
 }
+
+/*.container {
+    max-width: 730px !important;
+}*/
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 730px;
+    }
+}
+
