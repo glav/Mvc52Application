@@ -22,8 +22,6 @@ namespace Mvc52Application.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = $"SayHello: {Hello.SayHello("David")}, Foo Appsetting: {ConfigurationManager.AppSettings["foo"]}";
-
             return View();
         }
 
